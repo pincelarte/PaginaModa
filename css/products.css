@@ -1,0 +1,50 @@
+.title-products{
+    font-weight: lighter;
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+
+.search-input{
+    float: left;
+    padding: 10px;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid var(--color-gray);
+}
+
+.search-input:focus{
+    outline: none;
+    
+}
+
+.select-order{
+    float: right;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.product-box{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.product-box:hover{
+    text-decoration: none;
+}
+
+.product-box img{
+    
+    transition: 0.3s;
+}
+.product-box:hover img{
+    scale: 1.05;
+}
+
+.product-box h3{
+    font-size: 14px;
+    font-weight: normal;
+    
+}
